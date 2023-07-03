@@ -1,0 +1,7 @@
+#!/bin/bash
+if [ "$1" != "" ]
+then
+    ./DOPL-Ass4 $*
+else
+    echo 'Missing file argument.'
+fi

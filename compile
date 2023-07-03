@@ -1,0 +1,6 @@
+#!/bin/bash
+cd ./Analyzer
+mkdir build
+cd build
+cmake -DCMAKE_BUILD_TYPE=Release -DCMAKE_EXPORT_COMPILE_COMMANDS=1 -DEXECUTABLE_OUTPUT_PATH=../../ ../
+make
